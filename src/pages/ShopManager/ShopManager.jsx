@@ -13,16 +13,13 @@ import { product } from 'prelude-ls';
 const ShopManager = (props) => {
   const [shop, setShop] = useState({})
   const { id } = useParams()
-// call shop id here 
   useEffect(() => { 
     shopService.getDetails(id)
     .then(shop => { 
       setShop(shop)
     })
-  }, [])
-// pass shop id to setManager here 
+  }, [id])
 
-// "/shops/:id/manage/products/new"
   return (
     <>
       <h1 class="text-indigo-500 font-medium text-center mt-5 mb-5 text-2xl font-bold">{shop.name}</h1>

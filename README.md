@@ -87,11 +87,10 @@ Nick is a full stack web developer from the NYC area, with a passion for food, c
 
 ## Screenshots
 
-![Screenshot 1](public/screenshots/HomePage.png)
-![Screenshot 2](public/screenshots/ShopIndex.png)
-![Screenshot 3](public/screenshots/ProductIndex.png)
-![Screenshot 4](public/screenshots/Form.png)
-![Screenshot 5](public/screenshots/Profilepage.png)
-![Screenshot 6](public/screenshots/ResponsiveView.png)
+![Screenshot 1](public/screenshots/ShopIndex.png)
+![Screenshot 2](public/screenshots/ProductIndex.png)
+![Screenshot 3](public/screenshots/Form.png)
+![Screenshot 4](public/screenshots/Profilepage.png)
+![Screenshot 5](public/screenshots/ResponsiveView.png)
 
 [Back to Top](#top)

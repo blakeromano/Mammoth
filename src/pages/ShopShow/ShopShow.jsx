@@ -40,9 +40,7 @@ const ShopShow = (props) => {
     <div class="pro-card">
       <div class="bg-white max-w-xs shadow-lg mx-auto border-b-4 border-indigo-500 rounded-2xl overflow-hidden  hover:shadow-2xl transition duration-500 transform hover:scale-105 cursor-pointer" >
       < div class="bg-indigo-500  flex h-200  items-center">
-          {/* add logo to top center  */}
           <img src={shop.logo} alt="shop's logo" />
-        {/* <p class="ml-4 text-white uppercase">Title</p> */}
       </div>
        
           <h1 class="py-6 px-6 text-xl tracking-wide text-center">{shop.name}</h1>
@@ -64,8 +62,6 @@ const ShopShow = (props) => {
         {shop.desc &&  
           <p class="py-6 px-6 text-lg tracking-wide text-center">{shop.desc}</p>
         }
-  
-                                {/* <!-- <hr > --> */}
         </div>
         </div>
         </div>

@@ -180,11 +180,7 @@ const AddProductForm = (props) => {
           deleteVideoInput={deleteVideoInput} 
           />
         )}
-
-
       <div class="mt-4 items-center flex justify-between">
-
-        {/*  add styling to image and video inputs  */}
         <button 
           onClick={() => {
           let updateFormData = {...formData}
@@ -201,21 +197,15 @@ const AddProductForm = (props) => {
           updateFormData.pictures.push('')
           setFormData(updateFormData)
           }} type="button" class="px-1 py-1 text-white font-light tracking-wider bg-indigo-500 hover:bg-indigo-200 rounded">Add Image</button>
-          
-         
-         
+  
          <button  
          type="submit" 
          class="px-1 py-1 text-white font-light tracking-wider bg-indigo-500 hover:bg-indigo-200 rounded"
          >
            Add Product
            </button>
-       
       </div>
-      
-
 </form>
-
 </div>
 </div>
 </div>

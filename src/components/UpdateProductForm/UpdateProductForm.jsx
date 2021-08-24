@@ -176,7 +176,6 @@ const UpdateProductForm = (props) => {
 
       <div class="mt-4 items-center flex justify-between">
 
-        {/*  add styling to image and video inputs  */}
         <div 
           onClick={() => {
           let updateFormData = {...formData}
