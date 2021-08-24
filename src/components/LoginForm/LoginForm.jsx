@@ -77,6 +77,7 @@ const LoginForm = (props) => {
                     <a class="inline-block right-0 align-baseline font-light text-md text-500 hover:text-red-400" href='/signup'>
                         Create an Account 
                     </a><br/>
+                    {/* To eventually add password resetting */}
                     {/* <a class="inline-block right-0 align-baseline font-bold text-sm text-500 text-white hover:text-indigo-500"
                       href="#">Forgot Your Password?</a> */}
                   </div>

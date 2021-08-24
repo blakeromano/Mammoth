@@ -109,34 +109,6 @@ const Home = (props) => {
 		</div>
 	</div>
 </section>
-
-
-
-{/* {recentActivity.profile &&
-<section> 
-<div class=" bg-white text-black py-20">
- 		<div class="container mx-auto  md:flex-row items-center my-12 md:my-24">
- 				<h1 class="text-3xl text-center md:text-5xl p-2 text-indigo-500 tracking-loose">
-					 Your Recent Activity</h1>
- 				<h2 class="text-3xl md:text-5xl p-2 leading-relaxed md:leading-snug mb-2">
- 				</h2>
-				 <div class="grid gap-72 grid-cols-2 w-100"> 
- 			
-						{recentActivity.profile?.orders.length > 0 &&
-						recentActivity.profile?.orders?.map(order => {
-							<RecentActivityCard /> 
-						})}
-							</div> 
-			
-			
-		</div>
-	</div>
-</section>
-} */}
-
-
-
-
 <section>
 <div class=" bg-white text-black py-20">
  		<div class="container mx-auto  md:flex-row items-center my-12 md:my-24">
@@ -160,12 +132,8 @@ const Home = (props) => {
 							 </Link>
 						 
 					)
-				})}
-			
-				 
+				})} 
  			</div> 
-		
-			
 					</div>
 				</div>
 </section>

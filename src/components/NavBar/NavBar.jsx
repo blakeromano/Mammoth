@@ -24,8 +24,7 @@ const NavBar = ({ user, handleLogout, userProfile }) => {
 <>
 
 <header class="border-b md:flex md:items-center md:justify-between p-4 pb-0 shadow-lg md:pb-4">
-{/*   
-  <!-- Logo text or image --> */}
+
   <div class="flex items-center justify-between mb-4 md:mb-0">
     <h1 class="leading-none text-2xl text-indigo-500">
       <a class="no-underline text-grey-darkest hover:text-black" href="/">
@@ -38,15 +37,11 @@ const NavBar = ({ user, handleLogout, userProfile }) => {
       <i class="fa fa-2x fa-bars"></i>
     </a>
   </div>
-  {/* <!-- END Logo text or image --> */}
-  
-  {/* <!-- Search field --> */}
+
   <div class=" ml-40">
   <SearchForm />
   </div>    
-  {/* <!-- END Search field --> */}
-  
-  {/* <!-- Global navigation --> */}
+
   <nav>
     <ul class="list-reset md:flex md:items-center">
       <li class="md:ml-4">
@@ -109,7 +104,6 @@ const NavBar = ({ user, handleLogout, userProfile }) => {
     
     
   </nav>
-  {/* <!-- END Global navigation --> */}
 
 </header>
 <h1 class="mb-3"> 
